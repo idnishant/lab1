@@ -20,6 +20,6 @@
         </c:forEach>
     </ul>
     <%-- todo 1 : run assignement1.jsp  --%>
-    <%-- todo 2 : use c:forEach to print 1,3,5,7,9  --%>
+    <%-- todo 2 : use c:forEach to print 1,3,5,7,9   --%>
 </body>
 </html>
