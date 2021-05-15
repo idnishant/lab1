@@ -21,5 +21,6 @@
     </ul>
     <%-- todo 1 : run assignement1.jsp  --%>
     <%-- todo 2 : use c:forEach to print 1,3,5,7,9   --%>
+   <%-- todo 3 : use c:forEach to print 2,4,6,8,10   --%>
 </body>
 </html>
