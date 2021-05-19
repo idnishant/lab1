@@ -35,7 +35,7 @@ List<Person> personList=new ArrayList<Person>();
 personList.add(new Person("Tom",new Dog("Tommy")));
 personList.add(new Person("Sam",new Dog("Sammy")));
 // todo 6 : add a new person into PersonList - person name and dog name
-request.setAttribute("Person",personList);
+request.setAttribute("AllPerson",personList);
 %>
 <%--//todo 7: use c:forEach to print personname :   and persons' dog name : --%>
 

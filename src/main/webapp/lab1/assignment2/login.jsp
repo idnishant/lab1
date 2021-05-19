@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: Lenovo
@@ -12,8 +13,9 @@
 </head>
 <body>
 <%-- todo 6: use c:out to print message fron request --%>
+<c:out value="${message}"/>
 <%--todo 1: use c:url to set url in action="validate.jsp" --%>
-<form action="">
+<form action="<c:url value="validate.jsp"/> ">
     Username : <input type="text" name="username"><br>
     Password : <input type="password" name="password"><br>
     <input type="submit" value="Login"/>
